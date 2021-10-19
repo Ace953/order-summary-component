@@ -11,19 +11,23 @@ body, html{
     background-color: hsl(225, 100%, 94%);
     background-size: 100%;
     width: 100%;
+    margin: 0;
 }
 
 .hero{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding-bottom: 5px;
-    width: 370px;
+    /* padding-bottom: 5px;
+    width: 370px; */
+    width: 100%;
+    display: block;
 }
 
 .order{
     font-size: 1.5rem;
     font-weight: 900;
-    margin: 30px 0 20px 0;
+    /* margin: 30px 0 20px 0; */
+    margin-bottom: 20px;
 }
 
 .text{
@@ -38,7 +42,7 @@ body, html{
     justify-content: space-between;
     background-color: hsl(225, 100%, 98%);
     padding: 20px;
-    margin: 0 -28px 20px -28px;
+    /* margin: 0 -28px 20px -28px; */
     border-radius: 7px;
 }
 
@@ -46,7 +50,7 @@ body, html{
     line-height: 20px;
     font-size: 13px;
     font-weight: bold;
-    margin-right: 95px;
+    /* margin-right: 95px; */
 }
 
 .well{
@@ -71,7 +75,7 @@ body, html{
 }
 
 .cancel{
-    margin: 10px 0 40px 0;
+    /* margin: 10px 0 40px 0; */
     display: flex;
     justify-content: center;
 }
@@ -100,9 +104,10 @@ body, html{
 
 .white{
     background-color: white;
-    padding: 0 60px 0 60px;
+    /* padding: 0 60px 0 60px;
     margin-bottom: 5px;
-    margin-top: -9px;
+    margin-top: -9px; */
+    padding: 2rem;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     display: flex;
@@ -114,12 +119,14 @@ body, html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
 }
 
 .card{
-    width: 370px;
-    margin: auto;
-    margin-top: 50px;
+    /* width: 370px;
+    margin-top: 50px; */
+    max-width: 370px;
 }
 
 .btn{
@@ -130,7 +137,7 @@ body, html{
     font-size: 13px;
     background-color: hsl(245, 75%, 52%);
     padding: 1.2em;
-    margin: 0 -26px 0 -26px;
+    /* margin: 0 -26px 0 -26px; */
     padding-right: 2px;
     padding-left: 2px;
     border-radius: 7px;
